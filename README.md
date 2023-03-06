@@ -2,7 +2,7 @@
 
 ## Screenshots
 ### **Home Page**
-![Home Page](https://github.com/GAUTAMSINGH102/Generator/blob/main/Images/first.jpeg)
+![Home Page](https://github.com/GAUTAMSINGH102/Generator/blob/main/Images/home.jpeg)
 
 ### **Code Generator**
 ![Code Convertor](https://github.com/GAUTAMSINGH102/Generator/blob/main/Images/code.jpeg)
