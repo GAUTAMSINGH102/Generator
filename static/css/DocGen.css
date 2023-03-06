@@ -1,0 +1,417 @@
+@font-face {
+    font-family: AvenirLTStd-Book;
+    src: url(..fonts/AvenirLTStd-Book.woff) format("woff"), url(../fonts/AvenirLTStd-Book.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: AvenirLTStd-Medium;
+    src: url(../fonts/AvenirLTStd-Medium.woff) format("woff"), url(../fonts/AvenirLTStd-Medium.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: AvenirLTStd-Heavy;
+    src: url(../fonts/AvenirLTStd-Heavy.woff) format("woff"), url(../fonts/AvenirLTStd-Heavy.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: AvenirLTStd-Roman;
+    src: url(../fonts/AvenirLTStd-Roman.woff) format("woff"), url(../fonts/AvenirLTStd-Roman.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ITCAvantGardePro-Bk;
+    src: url(../fonts/ITCAvantGardePro-Bk.otf) format("opentype");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ITCAvantGardePro;
+    src: url(../fonts/ITCAvantGardePro-Bold.otf) format("opentype");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ITCAvantGardePro-Md;
+    src: url(../fonts/ITCAvantGardePro-Md.otf) format("opentype");
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ITCAvantGardePro-Demi;
+    src: url(../fonts/ITCAvantGardePro-Demi.otf) format("opentype");
+    font-style: normal;
+    font-display: swap
+}
+
+:root {
+    margin: 0px;
+    padding: 0px;
+    --dark: #211b3e;
+    --blue-grey: #8d8b97;
+    --sapphire: #3b2a98;
+    --light-mustard: #ffca59;
+    --pale-grey: #f8f7fa;
+    --pale-grey-two: #eeecf9;
+    --pale-grey-three: #fbfbfd;
+    --dusk: #585371;
+    --cloudy-blue: #c0becd;
+    --turquoise-blue: #00c3c0;
+    --white: #ffffff;
+    --blueberry-30: rgba(64, 48, 146, 0.3);
+    --turquoise-blue-three: #00afcb
+}
+
+body {
+    background-image: url(../images/OceanBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+.header {
+    width: 100%;
+    margin-top: 0px;
+    z-index: 91;
+    box-shadow: 0 1px var(--pale-grey-two);
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    background-image: url(../images/OceanBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header a {
+    color: #585371;
+    font-family: Avenir-Medium, Open Sans, sans-serif
+}
+
+.logo {
+    margin-left: 200px;
+    margin-right: 370px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 5px
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-collapse a {
+    color: var(--dusk);
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 12px
+}
+
+.navbar-collapse a:focus,
+.navbar-collapse a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+#sidebar-wrapper a {
+    font-family: ITCAvantGardePro-Md
+}
+
+#sidebar-wrapper a {
+    padding-top: 12px !important
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.front {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 50px;;
+}
+
+.front img{
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.front_info {
+    width: 60%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.front_info h2 {
+    font-family: ITCAvantGardePro;
+    font-size: 35px;
+}
+
+.front_info p {
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.generator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.flex_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input {
+    height: 570px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 7px 20px 20px 20px;
+    opacity: 0.7;
+    box-shadow: 0 15px 20px rgba(140, 234, 234, 0.603);
+    font-size:30px;
+    padding: 10px;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+  .textbutton {
+    position: relative;
+}
+
+.submit {
+  position: absolute;
+  top: 530px;
+  left: 372px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: yellow;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.icon {
+    display: none;
+}
+
+.textOutput {
+    position: relative;
+}
+
+.copybtn {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;;
+}
+
+.copied {
+    position: absolute;
+    top: 81px;
+    right: -86px;
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;;
+}
+
+.copied {
+    display:none;
+}
+
+.downloadbtn {
+    position: absolute;
+    top: 160px;
+    right: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:996px) {
+
+    .scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 1000;
+    }
+
+    
+
+    .navbar-nav {
+        position: absolute;
+        top:-100%;
+    }
+
+    .navbar-nav li {
+        margin-top: 20px;
+    }
+
+    .navbar-nav a{
+        color: black;
+        font-size: 20px;
+    }
+
+    .navbar-nav a:hover{
+        color: white;
+        font-size: 20px;
+    }
+
+    .navbar-nav.open{
+        position: absolute;
+        right: 3px;
+        background: rgb(119, 119, 225);
+        border-radius: 20px;
+        padding: 100px;
+        margin: 10px;
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .front{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .front .front_info {
+        width: auto;
+        margin-left: -10px;
+        margin-right: 60px;
+        padding: 0px;
+    }
+
+    .generator {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input {
+        height: 400px;
+        width: 400px;
+    }
+
+    .submit {
+        position: absolute;
+        top: 358px;
+        left: 372px;
+    }
+
+
+}

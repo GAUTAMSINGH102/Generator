@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="title" content="Generator" />
+	<meta name="description"
+		content="It will generate code, generate documentation, and also convert one programming language to other." />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="static/images/logo.png" type="image/png" sizes="16x16" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+	<title>Generator</title>
+
+	<link rel="stylesheet" rel="preload" type="text/css" href="static/css/style.css">
+</head>
+
+<body class="scroll">
+	<div id="wrapper">
+		<div class="overlay"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<section class="header">
+			<div class="desktop">
+				<div class="container">
+					<div class="header-nav">
+						<nav class="navbar navbar-expand-lg static-top" style="width: 100%;padding: 0px;">
+							<div>
+							<a class="navbar-brand navbar-brand-self w-25" href="/">
+								<img class="b-lazy" src="static/images/generator-logo.png" alt="Generator" width="150" />
+							</a>
+						</div>
+							<div class="navbar-collapse" id="sidebar-wrapper"
+								role="navigation" style="justify-content: flex-end;">
+								<ul id="navbar-nav" class="navbar-nav">
+									<li class="nav-item"> <a class="nav-link" href="/codeGenerator">Code Generator</a></li>
+									<li class="nav-item"> <a class="nav-link" href="/docGenerator">Doc Generator</a></li>
+									<li class="nav-item"> <a class="nav-link" href="/codeConvertor">Code Convertor</a></li>
+									<li class="nav-item"> <a class="nav-link" href="/contactUs">About Us</a></li>
+									<li class="nav-item"> <a class="nav-link" href="/contactUs">Contact Us</a></li>
+								</ul>
+								<i id="menu_icon" class="fa fa-bars icon" style="font-size:32px;color:blue"></i>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="clear"></div>
+		<section class="img-teamplate-section after-top-header">
+			<div class="img-teamplate-section__inner">
+				<div class="container">
+					<div class="row top-banner-section">
+						<div id="generator-carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#generator-carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#generator-carousel" data-slide-to="1"></li>
+								<li data-target="#generator-carousel" data-slide-to="2"></li>
+								<li data-target="#generator-carousel" data-slide-to="3"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+
+
+
+
+								<div class="carousel-item active">
+
+									<div class="dsp-flex-view">
+
+										<!-- Info -->
+										<div class="col-12 col-sm-12 col-md-6 col-lg-6 hightlight-txt pr-0 home-info">
+											<h1 class="font-weight-bold">Code Generator using English and Hindi</h1>
+											<div class="subbanner-text">
+												<p>You have to write a algorithm and it will generate code from it!</p>
+											</div>
+											<div class="banner-button-2">
+												<a class="btn btn-ordernow" target="_blank" href="#"
+													style="cursor:pointer">Watch Video
+												</a>
+											</div>
+										</div>
+
+										<!-- Image -->
+										<div class="col-12 col-sm-12 col-md-6 col-lg-6 main-banner-img pr-0">
+											<img class="generator-banner b-lazy" src="static/images/codegenerator.svg"
+												alt="Code Generator" />
+										</div>
+
+									</div>
+								</div>
+
+
+
+
+								<div class="carousel-item">
+
+									<div class="dsp-flex-view">
+
+										<!-- Info -->
+										<div class="col-12 col-sm-12 col-md-6 col-lg-6 hightlight-txt pr-0 home-info">
+											<h1 class="font-weight-bold">Generate Documentation</h1>
+											<div class="subbanner-text">
+												<p>Now you don't have to write docs manually when you have Generator. It
+													generate documentation in bullet Point from code!</p>
+											</div>
+											<div class="banner-button-2">
+												<a class="btn btn-ordernow" style="cursor:pointer">Order Now</a>
+											</div>
+										</div>
+
+										<!-- Image -->
+										<div class="col-12 col-sm-12 col-md-6 col-lg-6 main-banner-img pr-0">
+											<img class="generator-banner b-lazy" src="static/images/docsgenerator.svg"
+												alt="Doc Generator" />
+										</div>
+									</div>
+								</div>
+
+
+
+
+
+
+								<div class="carousel-item">
+
+									<div class="dsp-flex-view">
+
+										<!-- Info -->
+										<div class="col-12 col-sm-12 col-md-6 col-lg-6 hightlight-txt pr-0 home-info">
+											<h1 class="font-weight-bold">#Convertor<br />Convert Code into other
+												Language</h1>
+											<div class="subbanner-text">
+												<p>Watch our <span class='font-family-bold'>If Someone don't know any
+														programming Language then don't worry</span> Convert it using
+													Generator</p>
+											</div>
+											<div class="banner-button-2 bb2-mb">
+												<a class="btn btn-ordernow" style="cursor:pointer">Watch Video</a>
+											</div>
+										</div>
+
+										<!-- Image -->
+										<div class="col-12 col-sm-12 col-md-6 col-lg-6 main-banner-img pr-0">
+											<img class="generator-banner b-lazy" src="static/images/codeconvertor.svg"
+												alt="Code Convertor" />
+										</div>
+									</div>
+								</div>
+
+
+
+
+
+
+								<div class="carousel-item">
+
+									<div class="dsp-flex-view">
+
+										<!-- Info -->
+										<div class="col-12 col-sm-12 col-md-6 col-lg-6 hightlight-txt pr-0 home-info">
+											<h1 class="font-weight-bold">Semantic Search<br /></h1>
+											<div class="subbanner-text txt-algn-center">
+												<div class="flx-col">
+													<div>
+														<span class="bp-swipe-arrow">&#8227;</span>
+														<span class="swipe-subtext">Sematic Search : <span
+																class="swipe-bold">Sometimes you don't find code that
+																you want to update, but now you will becuase you have
+																Generator!</span></span>
+													</div>
+												</div>
+											</div>
+
+											<div class="banner-button-2 bb2-mb">
+												<a class="btn btn-ordernow" style="cursor:pointer">Watch Video</a>
+											</div>
+										</div>
+
+										<!-- Image -->
+										<div class="col-12 col-sm-12 col-md-6 col-lg-6 main-banner-img pr-0">
+											<img class="generator-banner b-lazy" src="static/images/semanticsearch.svg"
+												alt="Semantic Search" />
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<section class="smart-create">
+
+
+
+			<div class="create-accept">
+				<dstatic class="container">
+					<h2 class="text-center sub-title font-weight-bold">Converting one Programming language to other made easy!</h2>
+					<hr class="hr-line" />
+				</dstatic/images
+				<div class="Marquee">
+					<div class="Marquee-content">
+						<div class="Marquee-tag"> <img height=100px; src="static/images/javascript.png"></img>
+						</div>
+						<div class="Marquee-tag"> <img height=100px; src="static/images/java.png"></img>
+						</div>
+						<div class="Marquee-tag"> <img height=100px; src="static/images/python.svg"></img>
+						</div>
+						<div class="Marquee-tag"> <img height=100px; src="static/images/csharp.png"></img>
+						</div>
+						<div class="Marquee-tag"> <img height=100px; src="static/images/php.webp"></img>
+						</div>
+						<div class="Marquee-tag"> <img height=100px; src="static/images/sql.png"></img>
+						</div>
+						<div class="Marquee-tag"> <img height=100px; src="static/images/cplus.png"></img>
+						</div>
+						<div class="Marquee-tag"> <img height=100px; src="static/images/mongodb.webp"></img>
+						</div>
+						<div class="Marquee-tag"> <img height=100px; src="static/images/android.png"></img>
+						</div>
+						<div class="Marquee-tag"> <img height=100px; src="static/images/c.png"></img>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+			<div class="container">
+				<div class="smart-create-content">
+
+					<div class="col-12 col-sm-12 col-md-12 mx-auto text-center">
+						<h2 class="sub-title font-weight-bold">Generator: Your All in one Coding App</h2>
+						<hr style="margin-bottom:60px;" class="hr-line" />
+					</div>
+
+
+
+
+
+					<div class="row">
+						<!-- Image -->
+						<div class="col-12 col-sm-12 col-md-6 text-center">
+							<img style="margin-top:-30px;" src="static/images/codegeneratorline.svg" class="smart_image b-lazy cline" alt="Code Generator">
+						</div>
+
+						<!-- Info -->
+						<div class="col-12 col-sm-12 col-md-6">
+							<div class="one_qr">
+								<div class="flex-row-custom mb-3">
+									<img src="static/images/all-qr@2x.png" class="mr-2 mr-lg-3" alt="all-qr" />
+									<h4>Code Generator</h4>
+								</div>
+								<p class="mr-120">Generate the code in any Programming langauage
+									Python, Javascript, C++, Java and many more...</p>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="dgline row margin-top-create">
+						<!-- Info -->
+						<div class="col-12 col-sm-12 col-md-6 flex-order">
+							<div class="one_qr pl-5 ml-5">
+								<div class="flex-row-custom mb-3">
+									<img src="static/images/zero-charges@2x.png" class="mr-2 mr-lg-3" alt="all-qr" />
+									<h4>Doc Generator</h4>
+								</div>
+								<p>Generate Documentation from Code.
+									It will give the short and simple summary of code!</p>
+							</div>
+						</div>
+
+						<!-- Image -->
+						<div class="col-12 col-sm-12 col-md-6 text-center">
+							<img style="margin-top:-50px;" src="static/images/docgeneratorline.svg" class="smart_image b-lazy dglineimg" alt="Doc Generator">
+						</div>
+					</div>
+
+
+
+
+					<div class="row margin-top-create">
+						<!-- Image -->
+						<div class="col-12 col-sm-12 col-md-6 text-center">
+							<img style="margin-top:-50px;" src="static/images/codeconvertorline.svg" class="smart_image b-lazy cline" alt="Code Convertor">
+						</div>
+
+						<!-- Info -->
+						<div class="col-12 col-sm-12 col-md-6">
+							<div class="one_qr">
+								<div class="flex-row-custom mb-3">
+									<img src="static/images/instant-settlement@2x.png" class="mr-2 mr-lg-3" alt="all-qr" />
+									<h4>Code Convertor</h4>
+								</div>
+								<p class="mr-120">Wow! Now You can convert any Programming Language into other
+									Programming Language!</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+				<!-- Dotted Line -->
+				<div class="bckimg b-lazy">
+					<img src="static/images/create-made-doted-line.png" class="b-lazy dottedline" alt="dotted-line">
+				</div>
+
+			</div>
+
+
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- <section class="paperless-creates">
+
+		</section> -->
+
+
+
+		<section class="video-carousel">
+			<div class="container container-self">
+				<h3 class="font-family-bold watch-now-heading">Watch Now</h3>
+				<hr class="hr-line" />
+
+				<div class="row">
+					<div class="col-12">
+						<div class="carousel">
+							<div class="carousel video__carousel">
+								<div id="carouselIndicators" class="carousel slide" data-ride="carousel"
+									data-interval="false">
+
+									<ol class="carousel-indicators car_indicators">
+										<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+										<li data-target="#carouselIndicators" data-slide-to="1"></li>
+										<li data-target="#carouselIndicators" data-slide-to="2"></li>
+									</ol>
+
+									<div class="carousel-inner">
+
+
+										<div class="carousel-item active">
+											<div class="video-container ">
+												<div
+													class="embed-responsive embed-responsive-16by9 videoWrapper d-block w-90">
+													<iframe class="b-lazy"
+														src="https://www.youtube.com/embed/DeO7xLXORpY" width="100%"
+														height="360" frameborder="0" allow="autoplay; fullscreen"
+														allowfullscreen></iframe>
+												</div>
+											</div>
+										</div>
+
+
+
+
+										<div class="carousel-item">
+											<div class="video-container">
+												<div
+													class="embed-responsive embed-responsive-16by9 videoWrapper d-block w-90">
+													<iframe class="b-lazy"
+														src="https://www.youtube.com/embed/1yZrnrAFTi4" width="100%"
+														height="360" frameborder="0" allow="autoplay; fullscreen"
+														allowfullscreen></iframe>
+												</div>
+											</div>
+										</div>
+
+
+
+										<div class="carousel-item">
+											<div class="video-container">
+												<div
+													class="embed-responsive embed-responsive-16by9 videoWrapper d-block w-90">
+													<iframe class="b-lazy"
+														src="https://www.youtube.com/embed/DeO7xLXORpY" width="100%"
+														height="360" frameborder="0" allow="autoplay; fullscreen"
+														allowfullscreen></iframe>
+												</div>
+											</div>
+										</div>
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<!-- <script src="/public/js/script-bundle.min.js?v=2.0" defer></script> -->
+
+
+
+	</div>
+	<script src="static/js/script.js"></script>
+</body>
+
+</html>

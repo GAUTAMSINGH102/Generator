@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/codeGen.css">
+</head>
+
+<body class="scroll">
+
+
+
+
+    <section class="header">
+        <div class="header-nav">
+            <nav class="navbar navbar-expand-lg static-top">
+                <a href="/"> <img class="logo" src="static/images/generator-logo.png" alt="Generator" width="150" />
+                </a>
+                <div class="navbar-collapse" id="sidebar-wrapper">
+                    <ul id="navbar-nav" class="navbar-nav">
+                        <li class="nav-item"> <a class="nav-link" href="/codeGenerator">Code Generator</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/docGenerator">Doc Generator</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/codeConvertor">Code Convertor</a></li>
+                        <li class="nav-item"> <a class="nav-link">About Us</a></li>
+                        <li class="nav-item"> <a class="nav-link">Contact Us</a></li>
+                    </ul>
+                    <i id="menu_icon" class="fa fa-bars icon" style="font-size:32px;color:blue"></i>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section>
+
+    <div class="front">
+        <div class="front_info">
+            <h2>Code Generator</h2>
+            <p>It will generate code from Natural Language. It can generate code in python, Javascript, Java, C++ and
+                many more now you don't have to worry about practical and many more things just focus on creativity by
+                making something that will useful for yourself and for others Thank You</p>
+        </div>
+        <div>
+            <img src="https://static.wixstatic.com/media/bc42ba_8bcfd5fac5d340fca0f17eb02fa74d0a~mv2.png/v1/fill/w_414,h_414,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bc42ba_8bcfd5fac5d340fca0f17eb02fa74d0a~mv2.png"
+                alt="" style="width:331px;height:331px;object-fit:cover"
+                srcset="https://static.wixstatic.com/media/bc42ba_8bcfd5fac5d340fca0f17eb02fa74d0a~mv2.png/v1/fill/w_414,h_414,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bc42ba_8bcfd5fac5d340fca0f17eb02fa74d0a~mv2.png"
+                fetchpriority="high">
+        </div>
+    </div>
+</section>
+    <div class="generator">
+        <div class="naturalLanguage flex_center">
+            <h2>Text Input</h2>
+            <div class="textbutton">
+                <textarea id="textInput" class="input scroll" type="text"></textarea>
+                <button id="submit" class="submit" type="submit">Submit</button>
+            </div>
+        </div>
+        <div id="codeOutput" class="codeOutput flex_center">
+            <h2>Code Output</h2>
+            <div>
+                <textarea id="outputCode" class="input scroll" type="text"></textarea>
+                <p id="copied" class="copied">Copied</p>
+                <i id="copybtn" class="fa fa-copy copybtn" style="font-size:30px;color:rgb(100, 197, 233)"></i>
+                <i id="downloadbtn" class="fa fa-download downloadbtn" style="font-size:30px;color:rgb(100, 197, 233)"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/codeGen.js"></script>
+</body>
+
+</html>
