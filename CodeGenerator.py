@@ -2,7 +2,6 @@ import os
 import openai
 
 # load API Key ( https://beta.openai.com/account/api-keys )
-# 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
 openai.api_key = ""
 
 def code_generate_function(description):
